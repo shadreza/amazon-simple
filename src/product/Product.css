@@ -1,0 +1,36 @@
+.productDiv{
+    display: flex;
+    margin: 3rem 1.5rem;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+    border-radius: 20px;
+}
+
+.imageDiv{
+    width: 30%;
+    text-align: center;
+    border-right: 1px solid black;
+    border-radius: 20px;
+}
+
+.infoDiv{
+    width: 70%;
+    text-align: left;
+    vertical-align: middle;
+    padding: 1.5rem;
+    margin-left: 1rem;
+    border-left: 1px solid black;
+    border-radius: 20px;
+}
+
+.buttonDiv button{
+    background: goldenrod;
+    border-radius: 10px;
+    color:indigo;
+    padding: .25rem 2rem;
+}
+
+.buttonDiv button:hover{
+    background: #000;
+    color: ivory;
+}
